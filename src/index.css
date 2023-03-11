@@ -1,9 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Merriweather:wght@300&family=Roboto+Slab&display=swap');
 
 @layer base {
 	button {
 		@apply border border-black rounded-xl px-5 py-1;
+		font-family: 'Federo', sans-serif;
+		font-family: 'Merriweather', serif;
+		font-family: 'Roboto Slab', serif;
+	}
+
+	h1 {
+		font-family: "Merriweather", serif;
+		font-family: "Roboto Slab", serif;
 	}
 }
