@@ -55,7 +55,7 @@ const Navbar = () => {
 					</div>
 				</nav>
 			</div>
-			<div className="grid md:grid-cols-[200px_minmax(900px,_1fr)_200px] lg:grid-cols-[520px_minmax(900px,_1fr)_520px] justify-items-center mx-8">
+			<div className="grid sm:grid-cols-[100px_minmax(900px,_1fr)_100px] md:grid-cols-[200px_minmax(900px,_1fr)_200px] lg:grid-cols-[520px_minmax(900px,_1fr)_520px] justify-items-center mx-8">
 				<h2 className="text-center font-bold text-2xl cursor-pointer hover:underline">
 					Get a Quote
 				</h2>
